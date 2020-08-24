@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Hill</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <section id="navigation">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-custom bg-custom">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section id="home">
+            <div class="container">
+                <h1><span id="typed"></span></h1>
+                <p>Designer, Developer, Programmer</p>
+                <div class="social">
+                    <a href="https://github.com/daveh07" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+                <!-- typed.js JavaScript -->
+                <script src="js/typed.js"></script>
+                <script>
+                    $('document').ready(function(){
+                      var typed = new Typed('#typed', {
+                        strings: ["web developer", "freelancer", "ui/ux designer"],
+                        backSpeed: 40,
+                        typeSpeed: 40,
+                        loop: true,
+                      })
+                    })
+                </script>
+            </div>
+        </section>
+        <div class="button">
+            <a href="#portfolio" class="square_btn35">
+            	View My Work
+              <i class="fas fa-arrow-right"></i>
+            </a>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img">
+                <img src="images/sydney.jpg" alt="">
+            </div>
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>About Me</h1>
+                </div>
+                <p>
+                  Hi, I’m Dave, a Web Developer from Sydney, Australia.
+                  <br></br>
+                  My passion for programming started back when I was working as a professional structural engineer developing lightweight UI applications to solve various engineering tasks using Python and Visual Basic. This passion quickly evolved into web development.
+                </br><br>
+                  I now enjoy creating fully responsive, functional websites and web applications for a range of various clients & industries.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="service">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Web Design</h1>
+                    <p>
+                      Fully repsonsive Front-end & Back-end website design.
+                      <br>
+                      <br>
+                      <br>
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>
+                      Fully responsive website design including Front-end and Back-end using the latest techologies & frameworks.
+                      <br>HTML5, CSS3, Javascript ES6, Python, React, Angular, Python
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h1>Product Development</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/cardgame.jpg" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>iOS Card Game App</h1>
+                    <p>
+                      This app was developed from undertaking Chris Ching's (CodeWithChris) iOS App Development course on Udemy.
+                      The app is a card game with score counters that is design for iOS devices using Xcode and Swift 5.
+                    </p>
+                    <a href="https://www.udemy.com/course/how-to-make-an-app-for-beginners-iosswift-2019/" class="cta" target="_blank">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description">
+                    <h1>Structural Library</h1>
+                    <p>
+                      A Django web application written in Python that will provide a library of
+                      Structural Engineering calculators for typical design tasks in accordance with Australia Standards.
+                      Currently in development. Click 'View Details' to follow the development on GitHub!
+                    </p>
+                    <a href="https://github.com/daveh07" class="cta" target="_blank">View Details</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="images/python.jpg" alt="">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/portitem3.jpeg" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Web Application - Quiz App</h1>
+                    <p>
+                      Currently in progress, Check back soon!
+                    </p>
+                    <a href="https://github.com/daveh07" class="cta" target="_blank">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>CV</h1>
+                <h6>Work & Education</h6>
+            </div>
+            <div class="timeline">
+                <ul>
+                    <li class="date" data-date="2020 - PRESENT">
+                        <h1>Web Developer -Freelancing</h1>
+                        <p>
+                          Utilising my programming and web development skills to provide fully responsive and interactive
+                          website designs.
+                        </p>
+                    </li>
+                    </li>
+                    <li class="date" data-date="2013 - 2020">
+                        <h1>Structural Design Engineer</h1>
+                        <p>
+                          Worked in various consultancies in Australia and the UK as a Structural Design Engineer.
+                          During my engineering career, I developed a passion for coding and creating programs to solve various engineering problems.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2009 - 2012">
+                        <h1>Bachelor of Engineering</h1>
+                        <p>
+                          University of New South Wales - B.Eng (Civil)
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action="mailto:david.hill87@outlook.com">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="service">Services:</label>
+                <select name="service" id="service">
+                    <option value="">General Enquiry</option>
+                    <option value="">Web Design & Development</option>
+                    <option value="">Web Application</option>
+                    <option value="">UX | UI Design</option>
+                    <option value="">Other</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+            <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7496.289550862741!2d151.19703747117896!3d-33.88123008369497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae2f6b3e5fb7%3A0xf97500fd5776ca34!2sJones%20St%2C%20Ultimo%20NSW%202007!5e0!3m2!1sen!2sau!4v1598079827758!5m2!1sen!2sau" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+            <div class="address" style="float:right;">
+                <h4>Address</h4>
+                <p>Jones Street, Ultimo, Sydney<br>NSW 2007, Australia</p>
+                <p>Phone: (+61) - 0481 776 872</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+          <i class="fa fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2020 - David Hill</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
