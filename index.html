@@ -269,14 +269,20 @@
 
     <!-- FOOTER SECTION -->
     <footer class="copyright">
-        <div class="up" id="up">
+        <button class="btnScrollToTop" id="btnScrollToTop">
           <i class="fa fa-chevron-up"></i>
-        </div>
+        </button>
         <p>&copy; 2020 - David Hill</p>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
+    <script>
+          const btnScrollToTop = document.querySelector("#btnScrollToTop");
+          btnScrollToTop.addEventListener("click", function() {
+            $("html, body").animate({ scrollTop:0 },"slow");
+          });
+    </script>
 </body>
 </html>
